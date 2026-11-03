@@ -7,6 +7,7 @@ independent methods, and no-arbitrage conditions.
 | Project | What it covers |
 |---|---|
 | [heston](heston/) | Heston stochastic volatility: Fourier pricing with the "little trap" characteristic function, Andersen QE Monte Carlo, and the implied volatility skew |
+| [american-options](american-options/) | Longstaff–Schwartz regression Monte Carlo for American and Bermudan options, benchmarked against a Bermudan binomial tree and the published values from the original paper |
 
 ## Running the tests
 
