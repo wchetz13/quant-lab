@@ -9,6 +9,7 @@ independent methods, and no-arbitrage conditions.
 | [heston](heston/) | Heston stochastic volatility: Fourier pricing with the "little trap" characteristic function, Andersen QE Monte Carlo, and the implied volatility skew |
 | [american-options](american-options/) | Longstaff–Schwartz regression Monte Carlo for American and Bermudan options, benchmarked against a Bermudan binomial tree and the published values from the original paper |
 | [svi](svi/) | Gatheral's SVI smile with quasi-explicit calibration, Durrleman's butterfly condition, calendar-spread checks, and the implied risk-neutral density |
+| [dupire](dupire/) | Dupire local volatility extracted from an arbitrage-free SVI surface, with a local-vol Monte Carlo that reprices the input smile |
 
 ## Running the tests
 
