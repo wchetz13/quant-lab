@@ -11,6 +11,7 @@ independent methods, and no-arbitrage conditions.
 | [svi](svi/) | Gatheral's SVI smile with quasi-explicit calibration, Durrleman's butterfly condition, calendar-spread checks, and the implied risk-neutral density |
 | [sabr](sabr/) | SABR with Hagan's implied vol expansion, checked against Monte Carlo, with calibration and the negative-density failure at long expiries |
 | [dupire](dupire/) | Dupire local volatility extracted from an arbitrage-free SVI surface, with a local-vol Monte Carlo that reprices the input smile |
+| [var-backtest](var-backtest/) | VaR and Expected Shortfall from historical, Gaussian, EWMA and filtered historical simulation, scored with Kupiec, Christoffersen, Basel traffic-light and Acerbi–Székely tests on GARCH data |
 
 ## Running the tests
 

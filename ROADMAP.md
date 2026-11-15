@@ -10,10 +10,10 @@ Running backlog for quant-lab. Issue numbers refer to this repository. Pending P
 - [x] **sabr**: Hagan expansion, Monte Carlo, calibration (#5, PR #8)
 - [x] **dupire**: local vol from an SVI surface (#7, PR #9)
 - [x] **heston calibration** to an implied vol surface (#3, PR #10): multi-start bounded least squares, kappa/theta identifiability
+- [x] **var-backtest**: VaR/ES forecasters with Kupiec, Christoffersen and Basel backtests (PR #11)
 
 ## In review
 
-- [ ] **var-backtest**: VaR/ES forecasters with Kupiec, Christoffersen and Basel backtests (PR #11)
 - [ ] **yield-curve**: bootstrapping deposits and par swaps, Nelson–Siegel–Svensson (PR #12)
 
 ## Next
