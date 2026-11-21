@@ -14,6 +14,7 @@ Running backlog for quant-lab. Issue numbers refer to this repository. Pending P
 - [x] **yield-curve**: bootstrapping deposits and par swaps, Nelson–Siegel–Svensson (PR #12)
 - [x] **purged-cv**: purged k-fold with embargo and a leakage study (#14)
 - [x] **portfolio-opt**: mean-variance frontier, risk parity, Black–Litterman, estimation-error study (PR #13)
+- [x] **trees**: CRR/Jarrow–Rudd/Leisen–Reimer binomial, Boyle trinomial, BBS/BBSR, tree Greeks, convergence study
 
 ## Next
 
@@ -21,5 +22,7 @@ Running backlog for quant-lab. Issue numbers refer to this repository. Pending P
 2. yield-curve: monotone-convex interpolation, multi-curve (OIS discounting + projection), swaption/bond pricing on the curve, real Treasury data
 3. Binomial/trinomial trees with Richardson extrapolation
 4. portfolio-opt follow-ups: walk-forward backtest on real ETF returns, turnover/transaction-cost constraints, resampled efficiency, hierarchical risk parity
+3. trees follow-ups: vectorise the BBS last layer, barrier options on trees, discrete dividends, early-exercise boundary plot
+4. Portfolio optimisation: mean-variance frontier, risk parity, Black–Litterman
 5. GARCH volatility forecasting; pairs trading with cointegration; Kelly sizing; Fama–French regressions
 6. Showcase finished projects on willhetzinger.github.io (the profile README is live; keep its featured table current)

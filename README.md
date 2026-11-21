@@ -15,6 +15,7 @@ independent methods, and no-arbitrage conditions.
 | [yield-curve](yield-curve/) | Discount curve bootstrapping from deposits and par swaps, Nelson–Siegel–Svensson fitting by variable projection, and forward curves |
 | [purged-cv](purged-cv/) | Machine learning for finance: purged k-fold cross-validation with embargo, and a leakage study where shuffled k-fold finds AUC 0.70 in pure noise |
 | [portfolio-opt](portfolio-opt/) | Mean-variance frontier (closed form and long-only), risk parity via Spinu's convex formulation, Black–Litterman, and a Monte Carlo study of estimation error with Ledoit–Wolf shrinkage |
+| [trees](trees/) | Binomial (CRR, Jarrow–Rudd, Leisen–Reimer) and trinomial trees, Broadie–Detemple smoothing with Richardson extrapolation, tree Greeks, and a convergence study against Black–Scholes |
 
 ## Running the tests
 
