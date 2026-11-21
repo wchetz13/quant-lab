@@ -12,6 +12,7 @@ Running backlog for quant-lab. Issue numbers refer to this repository. Pending P
 - [x] **heston calibration** to an implied vol surface (#3, PR #10): multi-start bounded least squares, kappa/theta identifiability
 - [x] **var-backtest**: VaR/ES forecasters with Kupiec, Christoffersen and Basel backtests (PR #11)
 - [x] **yield-curve**: bootstrapping deposits and par swaps, Nelson–Siegel–Svensson (PR #12)
+- [x] **purged-cv**: purged k-fold with embargo and a leakage study (#14)
 
 ## Next
 
