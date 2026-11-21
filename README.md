@@ -13,6 +13,7 @@ independent methods, and no-arbitrage conditions.
 | [dupire](dupire/) | Dupire local volatility extracted from an arbitrage-free SVI surface, with a local-vol Monte Carlo that reprices the input smile |
 | [var-backtest](var-backtest/) | VaR and Expected Shortfall from historical, Gaussian, EWMA and filtered historical simulation, scored with Kupiec, Christoffersen, Basel traffic-light and Acerbi–Székely tests on GARCH data |
 | [yield-curve](yield-curve/) | Discount curve bootstrapping from deposits and par swaps, Nelson–Siegel–Svensson fitting by variable projection, and forward curves |
+| [portfolio-opt](portfolio-opt/) | Mean-variance frontier (closed form and long-only), risk parity via Spinu's convex formulation, Black–Litterman, and a Monte Carlo study of estimation error with Ledoit–Wolf shrinkage |
 
 ## Running the tests
 
