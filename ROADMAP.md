@@ -13,6 +13,7 @@ Running backlog for quant-lab. Issue numbers refer to this repository. Pending P
 - [x] **var-backtest**: VaR/ES forecasters with Kupiec, Christoffersen and Basel backtests (PR #11)
 - [x] **yield-curve**: bootstrapping deposits and par swaps, Nelson–Siegel–Svensson (PR #12)
 - [x] **portfolio-opt**: mean-variance frontier, risk parity, Black–Litterman, estimation-error study (in review)
+- [x] **purged-cv**: purged k-fold with embargo and a leakage study (#14)
 
 ## Next
 
