@@ -15,6 +15,7 @@ Running backlog for quant-lab. Issue numbers refer to this repository. Pending P
 - [x] **purged-cv**: purged k-fold with embargo and a leakage study (#14)
 - [x] **portfolio-opt**: mean-variance frontier, risk parity, Black–Litterman, estimation-error study (PR #13)
 - [x] **trees**: CRR/Jarrow–Rudd/Leisen–Reimer binomial, Boyle trinomial, BBS/BBSR, tree Greeks, convergence study
+- [x] **garch**: GARCH/GJR-GARCH MLE (normal/t), term-structure forecasts, QLIKE/MSE/Diebold–Mariano out-of-sample study (PR #17)
 
 ## Next
 
@@ -22,5 +23,6 @@ Running backlog for quant-lab. Issue numbers refer to this repository. Pending P
 2. yield-curve: monotone-convex interpolation, multi-curve (OIS discounting + projection), swaption/bond pricing on the curve, real Treasury data
 3. portfolio-opt follow-ups: walk-forward backtest on real ETF returns, turnover/transaction-cost constraints, resampled efficiency, hierarchical risk parity
 4. trees follow-ups: vectorise the BBS last layer, barrier options on trees, discrete dividends, early-exercise boundary plot
-5. GARCH volatility forecasting; pairs trading with cointegration; Kelly sizing; Fama–French regressions
-6. Showcase finished projects on willhetzinger.github.io (the profile README is live; keep its featured table current)
+5. garch follow-ups: multi-horizon evaluation, realised-vol proxy, EGARCH, real index data, analytic gradients
+6. Pairs trading with cointegration; Kelly sizing; Fama–French regressions
+7. Showcase finished projects on willhetzinger.github.io (the profile README is live; keep its featured table current)
