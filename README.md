@@ -17,6 +17,7 @@ independent methods, and no-arbitrage conditions.
 | [portfolio-opt](portfolio-opt/) | Mean-variance frontier (closed form and long-only), risk parity via Spinu's convex formulation, Black–Litterman, and a Monte Carlo study of estimation error with Ledoit–Wolf shrinkage |
 | [trees](trees/) | Binomial (CRR, Jarrow–Rudd, Leisen–Reimer) and trinomial trees, Broadie–Detemple smoothing with Richardson extrapolation, tree Greeks, and a convergence study against Black–Scholes |
 | [garch](garch/) | GARCH and GJR-GARCH maximum likelihood with Gaussian and Student-t innovations, multi-step forecasts, and an out-of-sample comparison with rolling-window and EWMA baselines using QLIKE, Mincer–Zarnowitz and Diebold–Mariano tests |
+| [pairs-trading](pairs-trading/) | Engle–Granger pairs trading with a no-look-ahead backtest, and a multiple-testing study: spurious pairs match real ones in-sample (Sharpe 1.83) and earn nothing out of sample |
 
 ## Running the tests
 
