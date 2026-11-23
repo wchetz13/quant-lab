@@ -20,9 +20,7 @@ Running backlog for quant-lab. Issue numbers refer to this repository. Pending P
 
 1. Heston calibration to a real (downloaded) option chain, once network access allows; compare with the synthetic study
 2. yield-curve: monotone-convex interpolation, multi-curve (OIS discounting + projection), swaption/bond pricing on the curve, real Treasury data
-3. Binomial/trinomial trees with Richardson extrapolation
-4. portfolio-opt follow-ups: walk-forward backtest on real ETF returns, turnover/transaction-cost constraints, resampled efficiency, hierarchical risk parity
-3. trees follow-ups: vectorise the BBS last layer, barrier options on trees, discrete dividends, early-exercise boundary plot
-4. Portfolio optimisation: mean-variance frontier, risk parity, Black–Litterman
+3. portfolio-opt follow-ups: walk-forward backtest on real ETF returns, turnover/transaction-cost constraints, resampled efficiency, hierarchical risk parity
+4. trees follow-ups: vectorise the BBS last layer, barrier options on trees, discrete dividends, early-exercise boundary plot
 5. GARCH volatility forecasting; pairs trading with cointegration; Kelly sizing; Fama–French regressions
 6. Showcase finished projects on willhetzinger.github.io (the profile README is live; keep its featured table current)
