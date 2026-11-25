@@ -17,6 +17,7 @@ independent methods, and no-arbitrage conditions.
 | [portfolio-opt](portfolio-opt/) | Mean-variance frontier (closed form and long-only), risk parity via Spinu's convex formulation, Black–Litterman, and a Monte Carlo study of estimation error with Ledoit–Wolf shrinkage |
 | [trees](trees/) | Binomial (CRR, Jarrow–Rudd, Leisen–Reimer) and trinomial trees, Broadie–Detemple smoothing with Richardson extrapolation, tree Greeks, and a convergence study against Black–Scholes |
 | [garch](garch/) | GARCH and GJR-GARCH maximum likelihood with Gaussian and Student-t innovations, multi-step forecasts, and an out-of-sample comparison with rolling-window and EWMA baselines using QLIKE, Mincer–Zarnowitz and Diebold–Mariano tests |
+| [kelly](kelly/) | Kelly criterion sizing: closed forms, a numerical solver for discrete payoffs, fractional Kelly, the drawdown law $\alpha^{2/c-1}$ checked by simulation, and why estimation error makes full Kelly overbet |
 
 ## Running the tests
 
